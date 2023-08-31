@@ -1,0 +1,44 @@
+body {
+  background: #202020;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 20px);
+  align-items: center;
+}
+
+.card {
+  background: #2a2a2a;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  background: #202020;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+.img {
+  margin-top: 10px;
+  width: 70%;
+}
